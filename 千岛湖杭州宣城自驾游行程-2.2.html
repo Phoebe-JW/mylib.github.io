@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>清明假期千岛湖-杭州-宣城自驾游行程计划</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 2cm;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        .container {
+            max-width: 210mm;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        .day-section {
+            margin: 25px 0;
+            padding: 20px;
+            border-left: 4px solid #3498db;
+            background: #f4f6f7;
+            overflow: hidden; /* 新增BFC容器 */
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 0;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        .highlight {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .note-box {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+			page-break-before: always; /* 新增打印分页控制 */
+        }
+        .icon {
+            width: 20px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+        .section-title {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+        }
+        .print-optimize {
+            break-inside: avoid;
+        }
+        /* 新增右侧浮动布局 */
+        .map-wrapper {
+            float: right;
+            width: 45%;
+            margin: 10px 0 15px 20px;
+            shape-outside: inset(0 round 10px);
+        }
+        .map-screenshot {
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .screenshot-caption {
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 8px;
+        }
+        @media print {
+            .map-wrapper {
+                float: right;
+                width: 40%;
+                margin: 5px 0 10px 15px;
+            }
+            .map-screenshot {
+                border-width: 1pt;
+            }
+			.hotel-link::after {
+                content: none !important;
+            }
+        }
+        /* 文字环绕优化 */
+        .text-flow {
+            text-align: justify;
+            hyphens: auto;
+        }
+		/* 新增删除线样式 */
+        .canceled {
+            text-decoration: line-through;
+            color: #999;
+            opacity: 0.7;
+        }
+		/* 酒店链接样式 */
+        .hotel-link {
+            color: #2980b9;
+            text-decoration: none;
+            border-bottom: 1px dashed currentColor;
+            transition: all 0.3s ease;
+        }
+		.hotel-link:hover {
+            color: #e74c3c;
+            border-bottom-style: solid;
+        }
+		@media print {
+            .hotel-link {
+                color: inherit;
+                text-decoration: none;
+                border-bottom: none;
+            }
+		    .hotel-link::after {
+            content: " (" attr(href) ")";
+            font-size: 0.8em;
+            color: #666;
+            }
+		}
+		.empty-underline {
+            display: block; /* 改为块级元素 */
+            width: 80%; /* 相对宽度 */
+            border-bottom: 1px solid #666;
+            margin: 45px 0; /* 上下间距调整为45px */
+            line-height: 2; /* 增加行高 */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>清明假期千岛湖-杭州-宣城自驾行程计划</h1>
+
+        <!-- 4月6日 -->
+        <div class="day-section print-optimize">
+            <div class="section-title">
+                <h2>4月6日 扬州 → 千岛湖明豪国际度假酒店</h2>
+            </div>
+            <!-- 右侧浮动容器 -->
+            <div class="map-wrapper">
+                <img src="https://cdn.img2ipfs.com/ipfs/QmPzP2dgU25TkjX2bZR3Us7zhCjKjeybyBSCVSeaffUte5?filename=58f83caf3f90afb9fac1886d57f201a.jpg" alt="导航路线" class="map-screenshot">
+                <p class="screenshot-caption">高德导航推荐路线截图</p>
+            </div>
+            
+            <div class="text-flow">
+                <ul>
+                    <li><strong>🚗 交通与入住：</strong>
+                        <ul>
+                            <li>路线：沪陕高速 → 扬溧高速 → 溧宁高速 → 临金高速（约4.5小时，预计8:00出发，13:00到达）</li>
+					        <li>
+						    住宿：
+						    <a href="https://hotels.ctrip.com/hotels/detail/?cityId=20&checkIn=2025-04-06&checkOut=2025-04-07&hotelId=95438031&adult=3&ages=4&crn=2&children=1&highprice=-1&lowprice=0&listfilter=1" 
+                            target="_blank"
+                            rel="noopener"
+                            class="hotel-link">
+                            千岛湖明豪国际度假酒店
+                            </a> 
+			                </li>                            
+							<li>房型：豪华LOFT滑梯家庭房（75m²，含庭院）</li>
+                            <li>特色设施：宝格丽洗浴用品/儿童滑梯/观景浴缸</li>
+                        </ul>
+                    </li>
+                    <li><strong>🎪 亲子服务：</strong>
+                        <ul>
+                            <li>3000m²儿童乐园（含卡丁车/真人CS；拟下午，两大两小）</li>
+                            <li>环湖骑行1小时（免费提供自行车；拟下午，分头行动）</li>
+                            <li>恒温泳池 & 水幕光影秀</li>
+                        </ul>
+                    </li>
+                    <li><strong>🍲 晚餐安排：</strong>
+                        <ul>
+                            <li>庭院火锅（拟自带蛋卷桌、月亮椅、电磁炉、小电煮锅等；食材考虑部分自带/当地外购）</li>
+                            <li>备选方案：酒店中餐厅鱼头宴</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 4月7日 -->
+        <div class="day-section print-optimize">
+            <div class="section-title">
+                <h2>4月7日 千岛湖 → 杭州市区</h2>
+            </div>
+            <!-- 右侧浮动容器 -->
+            <div class="map-wrapper">
+                <img src="https://cdn.img2ipfs.com/ipfs/QmcNUi6GhK9GQQUE3zZ7aYcosJZwN2nHGbNaGkqxygTUNm?filename=222.jpg" alt="导航路线" class="map-screenshot">
+                <p class="screenshot-caption">杭州拟定游玩路线</p>
+            </div>
+            
+            <ul>
+			    <li><strong>🚗 交通与入住：</strong>
+                    <ul>
+                        <li>路线：千岛湖大道 → 309省道 → 219省道 → 305省道→ 彩虹快速路（约3.2小时，预计10:00出发，14:00到达）</li>
+                        <li>住宿：汉庭酒店（浙江工业大学店），双标间无早￥170（免费停车）</li>
+                        <li>午餐：考虑桐庐分水镇/胥口镇沿途就餐</li>
+                    </ul>
+                </li>
+                <li><strong>⛰ 游玩攻略：</strong>
+                    <ul>
+					    <li>游玩路线：地铁3号线、1号线至定安路 → 钱王祠（西湖） → 清河坊历史文化特色街区 → 望仙阁 → 南宋德寿宫遗址博物馆 → 五柳巷历史街区</li>
+                        <li>游玩时间：15:00-18:30</li>
+                    </ul>
+                </li>
+				<li><strong>🍽 美食推荐：</strong>
+                    <ul>
+                        <li>晚餐：奎元馆(解放路店)，或市区内另寻</li>
+                    </ul>
+                </li>
+                <li><strong>🏨 杭州市区住宿：</strong>
+                    <ul>
+					    <li>
+						拟定住宿：
+						<a href="https://hotels.ctrip.com/hotels/detail/?cityId=17&checkIn=2025-04-07&checkOut=2025-04-08&hotelId=59423428&adult=3&ages=4&crn=2&children=1&highprice=-1&lowprice=0&listfilter=1" 
+                        target="_blank"
+                        rel="noopener"
+                        class="hotel-link">
+                        汉庭酒店（浙江工业大学店）
+                        </a> 
+			            ，免费停车，高级双床房无早￥170
+			            </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 4月8日 -->
+        <div class="day-section print-optimize">
+            <div class="section-title">
+                <h2>4月8日 杭州 → 宣城 （两套备选方案）</h2>
+            </div>
+			<!-- 右侧浮动容器 -->
+            <div class="map-wrapper">
+                <img src="https://cdn.img2ipfs.com/ipfs/QmRF7fpVDTnz1uHmryCqs7FWA9Piibv4brusp5zVkx1EgJ?filename=%E7%9A%96%E6%B5%99%E5%A4%A9%E8%B7%AF.jpg" alt="导航路线" class="map-screenshot">
+                <p class="screenshot-caption">皖浙天路示意图</p>
+            </div>
+            <ul>
+                <li>路线1：汉庭酒店（浙江工业大学店） → 杭州野生动物世界（待定，门票￥200，开车约45分钟） → 329国道-329国道-104省道 → 宣城（约4小时国道，预计13:00出发，17:30到达）</li>
+				<li>路线2（优先）：汉庭酒店（浙江工业大学店） → 皖浙天路（329国道-倒上线-233国道219省道）→ 宣城（约6小时，预计10:00出发，17:00到达）</li>
+                <li><strong>⛰ 途经景点：</strong>
+                    <ul>
+                        <li>杭州野生动物世界（约2.5小时）</li>
+                        <li>皖浙天路（沿途观景台，可能自备食物野餐）</li>
+                    </ul>
+                </li>
+				<li><strong>🍽 美食推荐：</strong>
+                    <ul>
+                        <li>家朋乡旅游集散中心（附近徽菜）</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+		
+		<!-- 4月9日 -->
+        <div class="day-section print-optimize">
+            <div class="section-title">
+                <h2>4月9日 宣城 → 扬州</h2>
+            </div>
+			<!-- 右侧浮动容器 -->
+            <div class="map-wrapper">
+                <img src="https://cdn.img2ipfs.com/ipfs/QmcaZQHm4a6qkrqRfLkPFfhJcjixEPdeW3WoxyoPZrMd5v?filename=%E5%AE%A3%E5%9F%8E%E9%80%94%E5%BE%84%E6%B1%BD%E6%B8%A1%E5%9B%9E%E6%89%AC%E5%B7%9E.jpg" alt="导航路线" class="map-screenshot">
+                <p class="screenshot-caption">宣城回扬州轮渡路线</p>
+            </div>
+            <ul>
+                <li><strong>⛰ 宣城景点：</strong>
+                    <ul>
+                        <li>敬亭山（徒步1.5小时）</li>
+                        <li class="canceled">查济古村（徽派建筑摄影）</li>
+                        <li class="canceled">太极洞（喀斯特溶洞）</li>
+                    </ul>
+                </li>
+                <li><strong>🍽 美食推荐：</strong>
+                    <ul>
+                        <li>正餐：拟敬亭美食街解决</li>
+						<li>绩溪一品锅（三层食材炖煮）</li>
+                        <li>宁国粑粑（推荐老字号店铺）</li>
+                    </ul>
+                </li>
+                <li>路线：宣狸路 → 宁高公路 → 243省道 → 瓜洲汽渡 → 243省道（约4小时，预计13:00出发，17:30到达）</li>
+				<li><strong>🏨 宣城住宿(均不含早)：</strong>
+                    <ul>
+                        <li>
+						备选住宿：
+						<a href="https://hotels.ctrip.com/hotels/detail/?hotelId=7914867&checkIn=2025-04-08&checkOut=2025-04-09&cityId=1006&minprice=&mincurr=&adult=3&children=1&ages=4&crn=2&curr=&fgt=&stand=&stdcode=&hpaopts=&mproom=&ouid=&shoppingid=&roomkey=&highprice=200&lowprice=0&showtotalamt=&hotelUniqueKey=&listfilter=1" 
+                        target="_blank"
+                        rel="noopener"
+                        class="hotel-link">
+                        汉庭酒店(宣城万达广场店)
+                        </a> 
+			            ，万达对面，大床房￥145、双床房￥152
+			            </li>
+						<li>
+						备选住宿：
+						<a href="https://hotels.ctrip.com/hotels/detail/?hotelId=4814778&checkIn=2025-04-08&checkOut=2025-04-09&cityId=1006&minprice=&mincurr=&adult=3&children=1&ages=4&crn=2&curr=&fgt=&stand=&stdcode=&hpaopts=&mproom=&ouid=&shoppingid=&roomkey=&highprice=200&lowprice=0&showtotalamt=&hotelUniqueKey=&listfilter=1" 
+                        target="_blank"
+                        rel="noopener"
+                        class="hotel-link">
+                        格林豪泰(宣城昭亭南路万达广场店)
+                        </a> 
+			            ，近万达，特价大床/双床房￥152、标准大床/双床房￥165
+			            </li>
+						<li>
+						备选住宿：
+						<a href="https://hotels.ctrip.com/hotels/detail/?hotelId=4818735&checkIn=2025-04-08&checkOut=2025-04-09&cityId=1006&minprice=&mincurr=&adult=3&children=1&ages=4&crn=2&curr=&fgt=&stand=&stdcode=&hpaopts=&mproom=&ouid=&shoppingid=&roomkey=&highprice=200&lowprice=0&showtotalamt=&hotelUniqueKey=&listfilter=1" 
+                        target="_blank"
+                        rel="noopener"
+                        class="hotel-link">
+                        格林豪泰酒店(宣城高铁站国购广场店)
+                        </a> 
+			            ，高级大床房￥121，高级双人房￥127
+			            </li>
+						<li>
+						备选住宿：
+						<a href="https://hotels.ctrip.com/hotels/detail/?hotelId=82036592&checkIn=2025-04-08&checkOut=2025-04-09&cityId=1006&minprice=&mincurr=&adult=3&children=1&ages=4&crn=2&curr=&fgt=&stand=&stdcode=&hpaopts=&mproom=&ouid=&shoppingid=&roomkey=&highprice=200&lowprice=0&showtotalamt=&hotelUniqueKey=&listfilter=1" 
+                        target="_blank"
+                        rel="noopener"
+                        class="hotel-link">
+                        尚客优酒店(宣城碧桂园店)
+                        </a> 
+			            ，方便停车，离景区远，标准大床/双床房￥141
+			            </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 注意事项 -->
+        <div class="note-box">
+            <h3>⚠️ 重要提示</h3>
+            <ul>
+                <li>高速免费时段截止4月6日24时</li>
+                <li>骑行需准备防滑袜 & 防晒霜</li>
+                <li>野生动物世界与市区动物园注意区分</li>
+                <li>宣城行程建议预留5小时机动时间</li>
+            <h3>⚠️ 出行清单</h3>
+            <ul>
+                <li>露营装备：□ 月亮椅/□ Move马扎、□ 蛋卷桌、□ 帐篷（备选）</li>
+                <li>做饭装备：□ 电磁炉、□ 电煮锅</li>
+                <li>日常用品：□ 保温水杯、□ 常温水杯、□ 抽纸、□ 湿纸巾、□ 垃圾袋</li>
+				<li>数码产品：□ 充电器、□ 插排、□ 平板电脑</li>
+                <li>洗漱用品：□ 洗漱包（□ 牙刷、□ 牙膏、□ 洗发水、□ 护发素、□ 香皂、□ 洗衣液）</li>
+                <li> 其他：
+                <div class="empty-underline"></div>
+                <div class="empty-underline"></div>
+                <div class="empty-underline"></div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 设计元素 -->
+        <div style="text-align: center; margin-top: 20px; color: #7f8c8d;">
+            <hr style="border-style: dashed; border-color: #bdc3c7;">
+            <p>行程策划 | 千岛湖-杭州-宣城自驾游</p>
+        </div>
+    </div>
+</body>
+</html>
